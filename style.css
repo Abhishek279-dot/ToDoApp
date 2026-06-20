@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+     /* strik effect  */
+.done {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+
+body{
+    background-color:rgb(30, 123, 123);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width: 400px;
+    height:400px;
+    padding: 33px;
+    text-align:center;
+    background-color: #fff;
+    border-radius:15px;
+    box-shadow:0 0 10px 0 black;      ;
+    
+}
+h1{
+    border-bottom:1px solid rgb(0, 0, 0);
+    margin-top:5px;
+    padding:5px;
+}
+input{
+    width: 270px;
+    padding: 8px;
+    border: 3px solid aqua;
+    outline: none;
+    font-size: 18px;
+    border-radius:10px;
+
+}
+button{
+    width: 80px;
+    height:41px;
+    background-color:rgb(4, 29,29);
+    color: white;
+    border-radius: 12px;
+    cursor:pointer;
+    text-align:center;
+    font-family:verdana;
+
+}
+
+.inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin:15px;
+}
+
+.text ul{
+    position:relative;
+    background-color:rgb(4, 29,29);
+    color:white;
+    font-size:20px;
+    text-align:left;
+    padding:7px;
+}
+
+.text ul i{
+    position:absolute;
+    right:10px;
+    cursor:pointer;
+}
